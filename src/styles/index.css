@@ -37,6 +37,17 @@ input{
     width: 100%;
 }
 
-.fas{
+.fas {
     float: right;
-}
+        background-color: #f44336;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+.fas:hover {
+        opacity: 1;
+      }
